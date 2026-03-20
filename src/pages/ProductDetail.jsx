@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { AppContext } from '../context/AppContext';
-import PRODUCTS from '../data/products.js';
+import  PRODUCTS  from './Data/products';
 
 const ProductDetail = () => {
   const { id } = useParams();
