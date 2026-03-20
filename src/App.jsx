@@ -14,7 +14,7 @@ import Toast from './components/Toast';
 import CheckoutSuccess from './pages/CheckoutSucess';
 import Auth from './pages/Auth';
 import Favorites from './pages/Favorites';
-import  PRODUCTS  from './data/products';
+import  PRODUCTS  from './Data/products';
 
 function App() {
   const { user } = useContext(AppContext);
