@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo, useContext } from 'react';
 import { AppContext } from '../context/AppContext';
 import { Link } from 'react-router-dom';
 import CartSummary from '../components/CartSummary';
-import  PRODUCTS  from './Data/products';
+import PRODUCTS from '../Data/products';
 // 1. Define the Custom Hook at the top for easy reuse and clean structure
 const useDebounce = (value, delay) => {
   const [debouncedValue, setDebouncedValue] = useState(value);
